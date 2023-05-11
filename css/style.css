@@ -144,12 +144,22 @@ img {
       width: 100%;
       padding: 0;
     }
+
     .row{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
+    .steps, .why-us, .row .col:last-child {
+        margin-bottom: 0;
+    }
+
     .col{
         padding: 0;
+    }
+    
+    .why-us{
+        background-color: #222;
     }
   }
